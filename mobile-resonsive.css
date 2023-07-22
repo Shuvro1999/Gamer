@@ -1,0 +1,23 @@
+@media screen and (max-width:425px){
+    .nav-container{
+       flex-direction: column;
+    }
+    .nav-tittle{
+        flex-direction: column;
+    }
+    .nav-option{
+       width: 100%;
+       
+       flex-direction: column;
+        
+     }
+     .nav-tittle a{
+        margin-bottom: 10px;
+    }
+    .nav-option .nav-icon{
+        width:60%;
+        
+        
+    }
+    /* nav design end */
+} 

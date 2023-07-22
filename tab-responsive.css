@@ -1,0 +1,21 @@
+@media screen and (max-width:768px){
+    .nav-container{
+        flex-direction: column;
+        
+        
+     }
+     .nav-option{
+        width:100%;
+     }
+     .nav-option .nav-icon{
+        width:30%;
+        }
+    .nav-option .nav-tittle{
+        width:60%;
+        
+    }
+    /* nav design end */
+    
+    
+     
+}
