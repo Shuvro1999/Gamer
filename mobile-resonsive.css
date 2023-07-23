@@ -42,4 +42,27 @@
     .online-game-card{
         padding: 0px 20%;
     }
+    /* online game done */
+    .product-section-part-1-container{
+        flex-direction: column;
+    }
+    .product-1-text{
+       width: 100%;
+    }
+    .product-1-img{
+        width: 100%;
+        
+        margin: 0px;
+    }
+
+    .product-1-img  .sub-img{
+    
+        height: 300px;
+        width: 150px;
+        top:150px;
+        right: 250px;
+        
+       
+    }
+    /* products-1 done */
 } 

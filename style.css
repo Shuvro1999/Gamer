@@ -161,13 +161,13 @@ body{
     font-size:20px;
     font-weight: 500;
 }
-.online-game .tittle{
+.online-game .tittle,.product-1-text .tittle{
     text-align: center;
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
 }
-.online-game .description{
+.online-game .description,.product-1-text .description{
     text-align: center;
     color: #534C64;
     font-size: 18px;
@@ -183,3 +183,51 @@ span{
     font-weight: 700;
     
 }
+/* online game done */
+.product-section-part-1{
+    max-width:1100px;
+    min-height: 200px;
+    
+    margin: 50px auto 0;
+}
+.product-section-part-1-container{
+    margin-left: 80px;
+    
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+.product-1-text{
+    width:50%;
+   
+    min-height: 100px;
+    padding:auto 0px;
+}
+.product-1-img{
+    width:50%;
+   
+    min-height: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+.product-1-img img{
+    width: 100%;
+}
+.product-1-img  .sub-img{
+    
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top:250px;
+    right: 300px;
+   
+    
+   
+}
+/* products-1 done */
