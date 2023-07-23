@@ -65,9 +65,7 @@ body{
     margin-right: 10px;
     text-decoration: none;
 }
-/* .nav-icon a{
-    margin:10px;
-} */
+
 .nav-option a{
     color: #3C354F;
     font-size: 18px;
@@ -85,3 +83,103 @@ body{
     
 }
 /* nav design end */
+.banner-container{
+    min-height: 200px;
+   
+    max-width: 1100px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+}
+.banner-tittle{
+    width:50%;
+   
+   
+}
+.banner-text{
+    width:max-content;
+    
+    margin: 0 auto;
+    
+}
+.banner-text h1{
+    color: #0B0223;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.banner-text h2{
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .banner-text li{
+        list-style: none;
+        
+    }
+    .banner-text .banner-btn{
+        padding:10px 20px;
+        border-radius: 30px;
+        margin-top:20px;
+        border-radius: 30px;
+    } 
+.banner-img{
+    width:50%;
+    
+}
+.banner-img img{
+    width:100%;
+    
+}
+/* banner section done */
+.online-game{
+   
+    min-height: 400px;
+    max-width: 1100px;
+    margin:50px auto 0px;
+}
+.online-game-container{
+    
+    
+    min-height: 200px;
+    margin:50px auto 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    
+}
+.online-game-card img{
+    width:250px;
+    height: 310px;;
+}
+.online-game-card p{
+    color: #534C64;
+    font-size:20px;
+    font-weight: 500;
+}
+.online-game .tittle{
+    text-align: center;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-game .description{
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    
+}

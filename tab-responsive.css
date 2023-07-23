@@ -15,7 +15,26 @@
         
     }
     /* nav design end */
+    .banner-container{
+        flex-direction:column-reverse;
+    }
     
+    .banner-img{
+        width:100%;
+        margin: 50px 0px;
+        
+    }
+    /* banner section done */
+    .online-game-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .online-game-card img{
+        width: 100%;
+        object-fit: cover;
+       }
+       .online-game-card{
+        padding: 0px 20%;
+    }
     
      
 }
