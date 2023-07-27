@@ -159,6 +159,55 @@ body{
     width:250px;
     height: 310px;;
 }
+.online-game-card{
+    position: relative;
+}
+.online-game-container .special .special-img:hover{
+    border: 5px solid black;
+    
+}
+.online-game-card .online-sub-icon{
+    
+    height: 60px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top:80px;
+    right:115px;
+}
+.online-sub-icon .fa-regular{
+   border:1px solid black;
+   background-color: aqua;
+    
+}
+.online-game-card .online-sub-text{
+   
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top:110px;
+    right: 90px;
+}
+.online-sub-text p{
+    text-align: center;
+    background: linear-gradient(180deg, red 0%, #2e068b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 1800;
+   
+}
+
+
+
 .online-game-card p{
     color: #534C64;
     font-size:20px;
