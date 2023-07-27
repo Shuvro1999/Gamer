@@ -4,7 +4,7 @@ body{
 }
 .nav-section{
   
-    background-color: #FFFFFF;
+    background-color:  white;
     
 }
 .nav-container{
@@ -83,6 +83,9 @@ body{
     
 }
 /* nav design end */
+.banner-section{
+    background-color: #FFF;
+}
 .banner-container{
     min-height: 200px;
    
@@ -231,3 +234,46 @@ span{
    
 }
 /* products-1 done */
+.icon-container{
+    
+    max-width:1100px;
+    min-height: 200px;
+    margin: 150px auto 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.icon-child{
+    flex-basis: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-child:hover{
+    width: max-content;
+    border: 1px solid red ;
+    border-radius: 50px;
+    background: #FFF;
+}
+.icon-child img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+   
+    
+}
+.icon-child p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+/* icon design done */
+footer{
+    background-color: #0B0223;
+    min-height: 200px;
+}
